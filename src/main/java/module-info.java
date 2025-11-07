@@ -5,6 +5,7 @@ module com.example.magicalgirlbattlearena {
     requires org.controlsfx.controls;
     requires org.kordamp.ikonli.javafx;
     requires com.almasb.fxgl.all;
+    requires annotations;
 
 
     opens com.example.magicalgirlbattlearena to javafx.fxml;
