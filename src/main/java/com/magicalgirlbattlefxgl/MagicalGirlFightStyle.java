@@ -1,6 +1,6 @@
 package com.magicalgirlbattlefxgl;
 
-enum MagicalGirlFightStyle {
+public enum MagicalGirlFightStyle {
     /* each fight style/ magicalgirl with respective stats*/
     gun(100, 10, 12), //higher
     jumboHammer(90, 18, 4),

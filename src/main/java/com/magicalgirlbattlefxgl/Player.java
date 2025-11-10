@@ -26,7 +26,7 @@ public class Player extends GameApplication {
         FXGL.getGameWorld().addEntityFactory((EntityFactory) new GameFactory());
 
         //spawn player as a circle rn test
-        Entity player = FXGL.spawn("player, 400,300");
+        Entity player = FXGL.spawn("player", 400,300);
 
     }
 
