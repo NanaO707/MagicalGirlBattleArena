@@ -1,0 +1,18 @@
+//module com.example.magicalgirlbattlearena {
+//
+//    requires javafx.controls;
+//    requires javafx.fxml;
+//
+//    requires org.controlsfx.controls;
+//    requires org.kordamp.ikonli.javafx;
+//    requires com.almasb.fxgl.all;
+//    requires annotations;
+//
+//
+////    opens com.example.magicalgirlbattlearena to javafx.fxml;
+////    exports com.example.magicalgirlbattlearena;
+////
+////    opens com.magicalgirlbattlefxgl to com.almasb.fxgl.all;
+////    exports com.magicalgirlbattlefxgl;
+//
+//}
