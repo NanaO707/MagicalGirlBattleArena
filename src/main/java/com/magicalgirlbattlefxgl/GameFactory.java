@@ -13,8 +13,10 @@ public class GameFactory implements EntityFactory{
     @Spawns("player")
 
     public Entity spawnPlayer(SpawnData data){
+
+        MagicalGirlFightStyle style = (MagicalGirlFightStyle) data.get("style");
+
         return FXGL.entityBuilder(data)
-                .type(MagicalGirlFightStyle.darkMagic) //testing dark magic
                 .viewWithBBox(new Circle(20, Color.PURPLE))//testing circle for magic girl
                 .buildAndAttach();
 

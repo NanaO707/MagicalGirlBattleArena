@@ -2,9 +2,14 @@ package com.magicalgirlbattlefxgl;
 
 import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.app.GameSettings;
+import com.almasb.fxgl.app.scene.MenuType;
+import javafx.geometry.Pos;
+import javafx.scene.layout.VBox;
 
 
 public class MainMenu  extends GameApplication {
+
+
 
     @Override
     protected void initSettings(GameSettings gameSettings) {
@@ -13,15 +18,7 @@ public class MainMenu  extends GameApplication {
     }
 
 
-//    protected void initMainMenu(Pane mainMenuRoot){
-//        Rectangle bg = new Rectangle(800,500);
-//
-//        Font font = Font.font(60);
-//
-//        Button btnStart = new Button("Start");
-//        btnStart.setFont(font);
-//        //btnStart.setOnAction(event-> startGame);
-//    }
+
 }
 
 

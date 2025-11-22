@@ -68,7 +68,7 @@ class PlayerStats {
 
     //all opponents skip their next turn when cc'd
     public void useCC(PlayerStats magicalGirls){
-        if (ccCharges <=0 ){
+        if (ccCharges <= 0 ){
             System.out.println("no cc's left :( ");
            return;
         }
